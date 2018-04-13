@@ -3,7 +3,7 @@ package io.chanse.kotlinklass.classes
 import android.app.Activity
 import android.os.Bundle
 import android.widget.TextView
-import com.example.nayakc2.kotlinklass.R
+import io.chanse.kotlinklass.R
 
 class Lazy: Activity() {
 

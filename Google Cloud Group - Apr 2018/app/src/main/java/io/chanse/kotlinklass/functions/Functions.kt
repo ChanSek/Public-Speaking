@@ -28,27 +28,6 @@ fun test3(x: Int, y: Int): Int {
 }
 
 
-fun main(args: Array<String>) {
-    test()
-    test1(10)
-    test2(10, 20L)
-    test3(10, 20)
-
-    add(1, 2, 3, 4, 5)
-    add(1, 2, 3, 4)
-    add(1, 2, 3)
-
-    add(c =1, d = 10)
-
-    reformat("test test")
-    reformat(upperCaseFirstLetter = false,
-            str = "Some Value")
-}
-
-
-
-
-
 
 
 
@@ -205,6 +184,17 @@ class ToDo {
 
 
 
+fun main(args: Array<String>) {
+    test()
+    test1(10)
+    test2(10, 20L)
+    test3(10, 20)
+
+
+    reformat("test test")
+    reformat(upperCaseFirstLetter = false,
+            str = "Some Value")
+}
 
 
 

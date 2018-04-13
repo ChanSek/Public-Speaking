@@ -7,7 +7,7 @@ Introduction to Kotlin for Android Developers
         - Multi platform
         - Functional style
         - Concise code
-        - Awsome Language Features
+        - Awesome Language Features
 
 Basics -
     - Kotlin's Type System
@@ -27,14 +27,12 @@ Basics -
 
 Classes and Objects
     - Types of Classes and their behavior when inherited            - Classes.kt
-    - Properties vs Fields                                          - PropertiesAndFields.kt
+    - Properties vs Fields
         - lateinit                                                  - LateInit.kt
         - lazy                                                      - Lazy.kt
     - Interfaces                                                    - Interfaces.kt
-    - Visibility Modifiers                                          - VisibilibilityModifiers.kt
+    - Visibility Modifiers                                          - VisibilityModifiers.kt
     - Data Classes                                                  - DataClasses.kt
-    - Sealed Classes                                                - SealedClasses.kt
-    - Nested Classes                                                - NestedClasses.kt
     - Objects                                                       - Objects.kt
 
 Functions and Lambdas
@@ -46,7 +44,6 @@ Functions and Lambdas
         - Expression Functions                                      - Functions.kt
         - Infix Functions                                           - Functions.kt
     - Higher Order Functions                                        - Lambdas.kt
-    - Inline Functions                                              - Lambdas.kt
 
 Fun Packed Kotlin
     - Null Safety                                                   - NullSafety.kt   

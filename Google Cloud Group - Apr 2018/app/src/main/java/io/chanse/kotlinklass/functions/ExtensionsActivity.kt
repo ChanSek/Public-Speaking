@@ -2,7 +2,7 @@ package io.chanse.kotlinklass.functions
 
 import android.app.Activity
 import android.os.Bundle
-import com.example.nayakc2.kotlinklass.R
+import io.chanse.kotlinklass.R
 import kotlinx.android.synthetic.main.late_init.*
 
 class ExtensionsActivity : Activity() {
@@ -28,7 +28,7 @@ class ExtensionsActivity : Activity() {
     private fun insertToDb() {
         val values = contentValuesOf(
                 "name" to "Chandra",
-                "Email" to "chandra@medtronic.com",
+                "Email" to "chandra@chanse.io",
                 "Role" to "Android Engineer")
 
 

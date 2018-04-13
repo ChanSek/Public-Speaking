@@ -11,76 +11,23 @@ import java.util.*
 // Example AnonymousClass.kt
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-inline fun request(noinline listener: (res: String) -> Unit) {
+fun request(listener: (res: String) -> Unit) {
     // Send request here
     listener("Success")
 }
-
-
-
-
-
-
-
-
-
-
 
 
 fun main(args: Array<String>) {
     // Calling with Lambda
 
     request { response ->
-        run {
-            print(response)
-            println(response.toUpperCase())
-        }
+        print(response)
+        println(response.toUpperCase())
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     // Shortened Lambda
     request { print(it) }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     // Method Reference
@@ -88,50 +35,22 @@ fun main(args: Array<String>) {
 }
 
 
-
 fun printResponse(res: String) {
     println(res)
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Powers of Lambda Expression
-
-
-
-
-
-
-
-
 
 
 fun doSomething() {
     val names = arrayOf(
-            "Subin",
-            "Chandra",
-            "Sachin",
-            "Ramya",
-            "Utkarsh",
-            "Sid")
+            "Java",
+            "Kotlin",
+            "C",
+            "C++",
+            "Erlang",
+            "Python")
 
     val result = arrayOf<String>()
     for (item in names) {
@@ -143,59 +62,16 @@ fun doSomething() {
     println(Arrays.sort(result))
 
 
-
-
-
     // What the above code do???
 
 
-
-
-
-
     // Lets see this
-
-
-
-
-
-
-
 
 
     println(names.filter { it.length > 5 }
             .sortedBy { it }
             .map { it.toUpperCase() })
 }
-
-
-
-
-
-
-// Inline Functions
-
-
-
-
-// Show example in request() of same file
-
-
-
-
-
-
-
-
-
-
-
-// noinline keyword
-
-// If function accepts multiple lambdas
-
-
-
 
 
 

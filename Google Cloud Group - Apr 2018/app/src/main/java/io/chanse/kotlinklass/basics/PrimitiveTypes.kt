@@ -1,6 +1,13 @@
 package io.chanse.kotlinklass.basics
 
-import com.example.nayakc2.kotlinklass.model.User
+import io.chanse.kotlinklass.model.User
+
+
+
+
+
+
+
 
 
 // Primitive Data Types
@@ -16,6 +23,9 @@ import com.example.nayakc2.kotlinklass.model.User
 // 8. byte              --          Byte
 
 
+
+
+
 // In Java
 // int myInt = 10;
 // In Kotlin
@@ -24,6 +34,8 @@ val myInt: Int = 10
 
 
 // All types in Kotlin looks like Wrapper types
+
+
 
 // Wrapper Data Types
 //   Java                           Kotlin
@@ -36,6 +48,8 @@ val myInt: Int = 10
 // 6. Float             --          Float
 // 7. Short             --          Short
 // 8. Byte              --          Byte
+
+
 
 // In Java
 // Integer wrappedInt = 10;
@@ -80,12 +94,6 @@ val wrappedInt: Int = 10
 
 
 
-
-
-
-
-
-
 val nullableInt: Int? = null
 
 
@@ -100,6 +108,9 @@ val nullableInt: Int? = null
 // 6. Float             --          Float?
 // 7. Short             --          Short?
 // 8. Byte              --          Byte?
+
+
+
 
 
 // Take Away
@@ -157,7 +168,8 @@ val list: Array<String> = arrayOf(str)
 
 // In Java
 // String s = "Java";
-// Object obj = " Java";
+// Object obj = "Java";
+
 
 // In Kotlin
 val s: String = "Kotlin"
@@ -186,13 +198,14 @@ val anyInt: Any = 10
 
 // In Kotlin
 // val submostString: String = null
-// val submostObj: Any = null
 
+// val submostObj: Any = null
 
 
 
 // Not possible bcz of nullable Type
 val validSubmostString: String? = null
+
 
 // Nullable type - we have null
 // What about types which are non-nullable???
