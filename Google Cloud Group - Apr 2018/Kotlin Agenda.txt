@@ -1,6 +1,87 @@
+
+
+
+
+
+
+
+
+
+
+
+
 Introduction to Kotlin for Android Developers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    - About Me
+        - Chandra Sekhar Nayak
+        - Working at - HARMAN Connected Services
+        - Founder at - Chanse Software Pvt Ltd
+            - Chanse Games
+            - Chanse Shops
+        - Organizer at - BlrKotiln (Kotlin user Group - Bengaluru)
+            - Twitter - BlrKotlin
+            - Slack - blrkotlin.herokuapp.com
+            - Meetup - meetup.com/BlrKotlin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     - About Kotlin
         - History
+
+
+
+
+
+
+
+
+
+
+
+
+Agenda
+=======================
+
+
     - Why Kotlin?
         - Null Safety
         - Java Interop
@@ -8,6 +89,20 @@ Introduction to Kotlin for Android Developers
         - Functional style
         - Concise code
         - Awesome Language Features
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Basics -
     - Kotlin's Type System
