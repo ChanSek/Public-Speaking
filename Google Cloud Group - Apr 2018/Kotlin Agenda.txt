@@ -1,0 +1,74 @@
+Introduction to Kotlin for Android Developers
+    - About Kotlin
+        - History
+    - Why Kotlin?
+        - Null Safety
+        - Java Interop
+        - Multi platform
+        - Functional style
+        - Concise code
+        - Awsome Language Features
+
+Basics -
+    - Kotlin's Type System
+        - Primitive Types                                           - PrimitiveTypes.kt
+        - Wrapper Types                                             - PrimitiveTypes.kt
+        - val vs var                                                - PrimitiveTypes.kt
+        - Type Inference                                            - PrimitiveTypes.kt
+        - Nullable Types                                            - PrimitiveTypes.kt
+        - Any Type                                                  - PrimitiveTypes.kt
+        - Unit Type                                                 - PrimitiveTypes.kt
+        - Nothing Type                                              - PrimitiveTypes.kt
+    - Hello World Program                                           - HelloWorld.kt
+    - Control Flow
+        - if-else Expression                                        - IfElse.kt
+        - when Expression                                           - WhenExpr.kt
+        - for loop, while loop                                      - ForLoop.kt
+
+Classes and Objects
+    - Types of Classes and their behavior when inherited            - Classes.kt
+    - Properties vs Fields                                          - PropertiesAndFields.kt
+        - lateinit                                                  - LateInit.kt
+        - lazy                                                      - Lazy.kt
+    - Interfaces                                                    - Interfaces.kt
+    - Visibility Modifiers                                          - VisibilibilityModifiers.kt
+    - Data Classes                                                  - DataClasses.kt
+    - Sealed Classes                                                - SealedClasses.kt
+    - Nested Classes                                                - NestedClasses.kt
+    - Objects                                                       - Objects.kt
+
+Functions and Lambdas
+    - Functions
+        - Declaration and Usage                                     - Functions.kt
+        - Default Arguments                                         - Functions.kt
+        - Named Arguments                                           - Functions.kt
+        - Unit returning Functions                                  - Functions.kt
+        - Expression Functions                                      - Functions.kt
+        - Infix Functions                                           - Functions.kt
+    - Higher Order Functions                                        - Lambdas.kt
+    - Inline Functions                                              - Lambdas.kt
+
+Fun Packed Kotlin
+    - Null Safety                                                   - NullSafety.kt   
+        - ? operator
+        - ?. operator
+        - !! operator
+        - ?: operator
+    - String Template                                               - StringTemplate.kt
+    - Single line method expression                                 
+    - Extension Functions                                           
+    - Kotlin Android Extension                                      - ExtensionsActivity.kt
+    - Parcellable class                                             - ParcelledPatient.kt
+    - Destructuring Declarations                                    - Destruct.kt
+    - Ranges                                                        - Ranges.kt
+    - Type Checks and Casts
+        - 'is' and 'as'                                             - WhenExpr.kt
+        - Smart casts                                               - SmartCast.kt
+    - Equality                                                      - == vs ===
+    - Operator Overloading                                          - OperatorOverloading.kt
+
+Java Interop                                                        - JavaInterop.kt
+    - Java from Kotlin
+    - Kotlin from Java
+    - Converting Java code to Kotlin
+    - Checking Kotlin bytecode
